@@ -96,8 +96,6 @@ footer {
     width: 10%;
     height: 100%;
     justify-content: flex-start;
-
-    background-color: red;
 }
 
 .icon {
@@ -111,6 +109,15 @@ footer {
 
 .icon i {
     font-size: 1.7em;
+}
+
+.icon p {
+    width: 125px;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
 }
 
 .angle {
@@ -127,8 +134,10 @@ footer {
     width: 50%;
     height: 100%;
     justify-content: space-around;
+}
 
-    background-color: green;
+.green {
+    color: #4bc800;
 }
 
 /* Right Colummn */
@@ -137,7 +146,6 @@ footer {
     width: 7%;
     height: 100%;
     justify-content: flex-end;
-
     background-color: #4a4a4a;
 }
 
@@ -150,51 +158,4 @@ footer {
     color: red;
 }
 
-
-
-/* .foot-flex {
-    display: flex;
-    align-items: center;
-}
-
-.icon {
-    height: 40px;
-    width: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    color: white;
-    align-content: center;
-}
-
-.icon i {
-    font-size: 1.7em;
-}
-
-.small {
-    font-size: small;
-    margin-top: .5em;
-}
-
-.angle {
-    color: white;
-    margin-right: 1em;
-}
-
-.mid-col {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-.right-col {
-    height: 40px;
-    width: 80px;
-}
-
-.red {
-    color: red;
-    background-color: grey;
-} */
 /* icona verde: #4bc800 */
