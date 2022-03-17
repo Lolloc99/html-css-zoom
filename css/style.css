@@ -4,3 +4,89 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ /* HEADER */
+header {
+    width: 95%;
+    margin: .3em auto;
+    height: 50px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.view {
+    background-color: #4a4a4a;
+    color: white;
+    font-weight: 300;
+    padding: .3em .5em;
+    border-radius: 5px;
+}
+.fullscreen {
+    background-color: #4a4a4a;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    padding: .3em .5em;
+    border-radius: 5px;
+    margin-left: .5em;
+}
+
+/* MAIN */
+main {
+    height: calc(100vh - 140px);
+    margin: auto;
+    overflow-y: auto;
+}
+
+.main-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.img {
+    position: relative;
+    margin: .4em .2em;
+    background-color: black;
+}
+
+.user {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-size: small;
+    padding: .2em;
+    background-color: rgba(128, 128, 128, .6);
+}
+
+/* FOOTER */
+footer {
+    height: 80px;
+    width: 95%;
+    margin: auto;
+
+    background-color: #222222;
+}
+
+
+/* icona verde: #4bc800 */
